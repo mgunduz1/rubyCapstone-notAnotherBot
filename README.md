@@ -56,5 +56,4 @@ If you've read this far just give up and shoot the star(looks good on job applic
 
 This Project is WTFP licensed. 
 
-
-![License Explanation](./material/comic.jpg)
+![License Explanation](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-strip.jpg)
