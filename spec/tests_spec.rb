@@ -1,4 +1,3 @@
-# rubocop:disable Metrics/BlockLength
 require 'spec_helper'
 require 'book'
 require 'replies'
@@ -95,4 +94,3 @@ describe ReplyOptions do
     end
   end
 end
-# rubocop:enable Metrics/BlockLength
