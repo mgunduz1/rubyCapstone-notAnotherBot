@@ -1,5 +1,4 @@
 class BookRec
-  attr_reader :good, :too_good, :way_too_good, :best
 
   # rubocop:disable Metrics/MethodLength
   def initialize

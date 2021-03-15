@@ -39,6 +39,10 @@
 ### Talk to notAnotherBot
 - Go back to telegram and open a new conversation with the bot you just created.
 
+### Testing
+- Install rspec with this command on your terminal ``` gem install rspec ```
+- Run tests with this command on your project root ``` rspec ``` 
+
 
 ## ✒️  Author <a name = "author"></a>
 
