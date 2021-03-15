@@ -1,5 +1,4 @@
 class BookRec
-
   # rubocop:disable Metrics/MethodLength
   def initialize
     @good = [
