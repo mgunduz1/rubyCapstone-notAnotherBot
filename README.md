@@ -38,6 +38,8 @@
 
 ### Talk to notAnotherBot
 - Go back to telegram and open a new conversation with the bot you just created.
+- Follow the instructions. The bot will explain how to interact with itself.
+- Hard commands are basic. '/start' and '/stop'
 
 ### Testing
 - Install rspec with this command on your terminal ``` gem install rspec ```
