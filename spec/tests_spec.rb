@@ -53,6 +53,27 @@ describe BookRec do
       expect(result).not_to be_nil
     end
   end
+
+  describe '#randomgood' do
+    it 'works correct' do
+      res = book_rec.randomgood
+      expect(res.class).to_not be_an(Integer)
+    end
+  end
+
+  describe '#randomtgood' do
+    it 'works correct' do
+      res = book_rec.randomtgood
+      expect(res.class).to_not be_an(Integer)
+    end
+  end
+
+  describe '#randomwtgood' do
+    it 'works correct' do
+      res = book_rec.randomwtgood
+      expect(res.class).to_not be_an(Integer)
+    end
+  end
 end
 
 describe ReplyOptions do
@@ -81,7 +102,7 @@ describe ReplyOptions do
   describe '#initialize' do
     it 'values of keyboard options' do
       res = keys.first_base
-      expect(res.class).to_not be_an(Integer)
+      expect(res.class).to_not be_an(Array)
     end
   end
 
@@ -95,7 +116,7 @@ describe ReplyOptions do
   describe '#initialize' do
     it 'values of keyboard options' do
       res = keys.second_base
-      expect(res.class).to_not be_an(Integer)
+      expect(res.class).to_not be_an(Array)
     end
   end
 end
